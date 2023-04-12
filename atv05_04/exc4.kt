@@ -10,7 +10,7 @@ class Pessoa{
     protected var nomePai : String = ""
     protected var nomeMae : String = ""
     protected var nomeConjuge : String = ""
-    private var sexo : String = ""
+    private var sexo = ""
     
     fun cadastrarPessoa() {
         println("Digite o seu nome: ")
@@ -51,17 +51,17 @@ class Pessoa{
     }
     
     fun listarCadastro() {
-        println("Nome cadastrado: $nome")
-        println("RG cadastrado: $rg")
-        println("CPF cadastrado: $cpf")
-        println("Idade cadastrada: $idade")
-        println("Endereço cadastrado: $endereco")
-        println("Telefone Residencial cadastrado: $foneResidencial")
-        println("Telefone Comercial cadastrado: $foneComercial")
-        println("Celular cadastrado: $celular")
-        println("Nome do pai cadastrado: $nomePai")
-        println("Nome da mãe cadastrada: $nomeMae")
-        println("Nome do cônjuge cadastrado: $nomeConjuge")
+        println("Seu Nome cadastrado: $nome")
+        println("Seu RG cadastrado: $rg")
+        println("Seu CPF cadastrado: $cpf")
+        println("Sua Idade cadastrada: $idade")
+        println("Seu Endereço cadastrado: $endereco")
+        println("Seu Telefone Residencial cadastrado: $foneResidencial")
+        println("Seu Telefone Comercial cadastrado: $foneComercial")
+        println("Seu Celular cadastrado: $celular")
+        println("Nome do seu pai cadastrado: $nomePai")
+        println("Nome da sua mãe cadastrada: $nomeMae")
+        println("Nome do(a) cônjuge cadastrado: $nomeConjuge")
         println("Sexo cadastrado: $sexo")
     }
 }
