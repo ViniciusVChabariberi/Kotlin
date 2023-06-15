@@ -5,5 +5,5 @@ fun main(args: Array<String>) {
     
     var Diasvida : Int = Anodias * Idade
     
-    println("$Nome você já viveu $Diasvida anos de vida sem considerar anos bissextos")
+    println("$Nome você já viveu $Diasvida anos de vida sem considerar anos bissextos e se passaram $Idade anos")
 }
